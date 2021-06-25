@@ -3,6 +3,18 @@
 		<meta charset="utf-8">
 		<title>fupavuk</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="typed.min.js"></script>
+		<script>
+			$(function() {
+				$(".typed").typed({
+					strings: ['fupavuk','Даша','Ворсинка бобрича','абоба'],
+					typeSpeed: 100,
+					loop: true,
+					cursorChar: "|",
+				});
+			});
+		</script>
 		<style>
 			body {
 				margin: 0;
@@ -82,7 +94,6 @@
 					background-position:2% 0%;
 				}
 			}
-
 			@keyframes text {
 				0% {
 					background-position:2% 0%;
@@ -99,7 +110,7 @@
 	</head>
 	<body>
 		<a class="center container" href="https://t.me/fupavuk">
-			<h1>fupavuk</h1>
+			<h1><span class="typed"></span></h1>
 		</a>
 	</body>
 </html>
