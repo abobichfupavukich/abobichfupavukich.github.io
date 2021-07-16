@@ -1,0 +1,129 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.container {
+	width: 100%;
+	height: 100%;
+	background: black;
+	display: flex;
+	
+}
+.center {
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+a {
+	text-align: center;
+	text-decoration: none;
+}
+h1 {
+	text-align: center;
+	background: linear-gradient(312deg, #86007D, #ff922c, #FF0018);
+	background-size: 600% 600%;
+	background-repeat: no-repeat;
+	animation: text 32s ease infinite;
+	-webkit-animation: text 32s ease infinite;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 400%;
+
+}
+@media screen and (max-width: 900px) {
+/*
+	h1 {
+		min-height: 155px;
+	}
+*/
+}
+.buttons {
+/*	background: #fff3;*/
+	padding: 10px;
+    display: flex;
+/*    border-radius: 8px;*/
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;
+}
+
+a.link {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -moz-tap-highlight-color: rgba(0,0,0,0);
+    padding: 8px 20px; 
+    margin: 4px;
+    background: #fff5;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px; 
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    width: 56px;
+    text-align: center;
+    text-decoration: none;
+    transition: .2s;
+    border: 30px;
+}
+a.link path{
+	width: 300px;
+}
+@-webkit-keyframes text {
+	0% {
+		background-position:2% 0%;
+	}
+	50% {
+		background-position:99% 100%;
+	}
+	100% {
+		background-position:2% 0%;
+	}
+}
+
+@-moz-keyframes text {
+	0% {
+		background-position:2% 0%;
+	}
+	50% {
+		background-position:99% 100%;
+	}
+	100% {
+		background-position:2% 0%;
+	}
+}
+
+@-o-keyframes text {
+	0% {
+		background-position:2% 0%;
+	}
+	50% {
+		background-position:99% 100%;
+	}
+	100% {
+		background-position:2% 0%;
+	}
+}
+
+@-ms-keyframes text {
+	0% {
+		background-position:2% 0%;
+	}
+	50% {
+		background-position:99% 100%;
+	}
+	100% {
+		background-position:2% 0%;
+	}
+}
+@keyframes text {
+	0% {
+		background-position:2% 0%;
+	}
+	50% {
+		background-position:99% 100%;
+	}
+	100% {
+		background-position:2% 0%;
+	}
+}
